@@ -1,0 +1,37 @@
+/* Selecting only one element */
+h1{
+    color: cyan;
+    font-size: 50;
+    background-color: white;
+    
+}
+p{
+    color: blueviolet;
+}
+article{
+    color: cadetblue;
+}
+
+/* Id Selector */
+#para1{
+    color: cadetblue;
+    background-color: floralwhite;
+    font-size: 30;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ /* class selector */
+ .center{
+     text-align: center;
+ }
+
+ /* Universal Selector */
+ * {
+     font-size: 25;
+ }
+
+ /* Selecting a particular Group */
+ h2,h3,h4,h5{
+     color: black;
+     background-color: cyan;
+ }
