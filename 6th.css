@@ -1,0 +1,75 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+    background-color: burlywood;
+    width: 500px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#para1{
+    background-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+    border-color: wheat;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    margin: 50px;
+}
+/* Element's padding area is the space between the content and border */
+
+#para2{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
+    border-radius: 2px;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 12px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+/* The border shorthand CSS property sets an element's border. It sets the values of border-width */
+
+#para3{
+    background-color: white;
+    border-style: solid;
+    border-color: brown;
+    border-width: 20px;
+    border-radius: 2px;
+    width: 500px;
+    padding: 20px 30px 20px 30px;
+    /* padding can be done with combined approach of prompting Top-right Bottom-Left */
+    margin:20px 30px 20px 30px;
+    /* The margin area, bounded by the margin edge, extends the border area to include an empty area used to separate the element from its neighbors. Its dimensions are the margin box width and the margin box height.
+     The size of the margin area is determined by the margin-top, margin-right, margin-bottom, margin-left, and shorthand margin properties. When margin collapsing occurs, the margin area is not clearly defined since margins are shared between boxes.
+     The margin CSS shorthand property sets the margin area on all four sides of an element. */
+
+}
+
+#para4 {
+    background-color: darkgrey;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px 40px;         /* top-bottom right-left*/  
+    margin: 20px 40px;
+}
