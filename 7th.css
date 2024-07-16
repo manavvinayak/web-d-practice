@@ -1,0 +1,43 @@
+div{
+    /* Note that div is applied to only background line of the webpage , while * applies to all the possble considerations like class box,images,etc.  */
+    border: solid red 2px;
+    /* We can combine border style, border color,and border width at one line */
+}
+
+img{
+    /* In CSS, margins are used to define the spacing around an element, creating a buffer between it and its neighboring elements or the viewport (the visible area of the web page). They are invisible by default and collapse with adjacent margins of other elements.
+
+Here's a breakdown of margins in CSS:
+
+Properties:
+
+    margin: This property is a shorthand for setting all four margins (top, right, bottom, left) at once. You can specify values for each side individually or use the same value for all sides.
+    margin-top: Sets the margin for the top edge of the element.
+    margin-right: Sets the margin for the right edge of the element.
+    margin-bottom: Sets the margin for the bottom edge of the element.
+    margin-left: Sets the margin for the left edge of the element */
+    margin: 15px;
+}
+.container{
+    background-color: bisque;
+    height: 1000px;
+}
+
+.img2{
+    position: relative;
+    top: 100px;
+}
+
+.img3{
+    position: sticky;
+    top: 100px;
+}
+
+.img4{
+    position: fixed;
+}
+
+.box{
+    background-color: aquamarine;
+    height: 1000px;
+}
