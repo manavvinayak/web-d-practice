@@ -1,0 +1,31 @@
+/* In CSS, a floating element is an element that is positioned to the left or right of its container, allowing other content (text, inline elements, and other block-level elements) to wrap around it. This creates a visually interesting layout where text or images can flow alongside a floated element.
+
+Here's a breakdown of how floating elements work:
+
+    Positioning: When you float an element, it's removed from the normal document flow and positioned to the left or right of its container.
+    Wrapping Content: The content that follows the floated element (text, inline elements, and other block-level elements) will wrap around it, flowing to the opposite side of the container. This creates the visually distinctive layout effect.
+    Width and Height: Floated elements still have a defined width and height, which can affect the layout based on the available space in the container.
+
+Properties for Floating Elements:
+
+    float: left; - Positions the element to the left of its container.
+    float: right; - Positions the element to the right of its container.
+    float: none; (default) - Removes any floating behavior, making the element behave normally in the document flow. */
+#img1{
+    width: 300px;
+    float: right;
+}
+
+#img2{
+    width: 300px;
+    float: left;
+}
+
+#img3{
+    width: 300px;
+    float: left;
+    clear: left;
+}
+*{
+    background-color: beige;
+}
