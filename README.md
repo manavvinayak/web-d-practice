@@ -13,7 +13,9 @@ Welcome to my HTML, CSS, and JavaScript practice repository! 🎉 This repositor
 
 ## Introduction 📚, 💻, 🚀
 This repository contains various practice exercises and mini-projects that I have completed to enhance my understanding of web development. Each section focuses on different aspects of HTML, CSS, and JavaScript, providing hands-on experience through practical examples.
-![Untitled](https://github.com/user-attachments/assets/d9fe5aa0-8e58-4906-a9fa-e5975f735303)     ![images](https://github.com/user-attachments/assets/fb15aa37-abd5-4cb4-84ab-dc0769df7358)  ![js](https://github.com/user-attachments/assets/2d6de69a-6ab0-49b4-9e34-e01d909006ab)     ![lappie](https://github.com/user-attachments/assets/d86606e9-806f-45c1-a040-69e7dd58db4a)
+
+
+![Untitled](https://github.com/user-attachments/assets/d9fe5aa0-8e58-4906-a9fa-e5975f735303)         ![images](https://github.com/user-attachments/assets/fb15aa37-abd5-4cb4-84ab-dc0769df7358)  ![js](https://github.com/user-attachments/assets/2d6de69a-6ab0-49b4-9e34-e01d909006ab)        ![lappie](https://github.com/user-attachments/assets/d86606e9-806f-45c1-a040-69e7dd58db4a)
 
 
 
