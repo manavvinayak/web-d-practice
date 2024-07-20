@@ -55,7 +55,7 @@ Here's a quick overview of the content you'll find in this repository:
 - **Responsive design**
 - **Animations and transitions**
 
-### JavaScript
+### JavaScript (Future Content)
 - **Variables and data types**
 - **Functions and scope**
 - **DOM manipulation**
