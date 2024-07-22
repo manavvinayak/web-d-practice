@@ -9,7 +9,6 @@ Welcome to my HTML, CSS, and JavaScript practice repository! 🎉 This repositor
 - [Getting Started](#getting-started)
 - [Content Overview](#content-overview)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction 📚, 💻, 🚀
 This repository contains various practice exercises and mini-projects that I have completed to enhance my understanding of web development. Each section focuses on different aspects of HTML, CSS, and JavaScript, providing hands-on experience through practical examples.
