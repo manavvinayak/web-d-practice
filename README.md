@@ -77,8 +77,7 @@ I welcome contributions to this repository! If you have any suggestions, improve
 5. **Push to the branch** (`git push origin feature/your-feature-name`)
 6. **Open a pull request**
 
-## License  📜, 🔗
-This repository is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
+
 
 ---
 
