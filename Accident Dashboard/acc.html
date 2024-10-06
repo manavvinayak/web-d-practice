@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accident  Monitor Dashboard</title>
+    <link rel="stylesheet" href="acc.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="logo acci.PNG" alt="TapShield" class="icon">
+            <h1>Accident  Monitor Dashboard</h1>
+
+
+        </div>
+    </header>
+    <main>
+        <section id="filters">
+            <h2>Filter By Year</h2>
+            <label for="year">Year:</label>
+            <select id="year">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+        </section>
+        <section id="summary">
+            <h2>Summary</h2>
+            <div id="para"></div>
+            <p>Accidents are increasing day by day,have an insight into the casualties with visual representations</p>
+        </section>
+        <section id="charts">
+            <h2>Charts</h2>
+            <div class="chart-container">
+                <canvas id="pieChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="wholeGraph"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="monitorWheel"></canvas>
+            </div>
+            </section>
+            </main>
+            <footer>
+                <p>&copy; 2024 Accident  Monitor</p>
+            </footer>
+            <script src="acc.js"></script>
+            </body>
+        
+</body>
+</html>
