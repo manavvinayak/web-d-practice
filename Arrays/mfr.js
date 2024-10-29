@@ -27,3 +27,12 @@ const red = (a,b) => {
     return a + b
 }
 console.log(arr2.reduce(red))
+const red2 = (a,b) => {
+    return a + b
+}
+console.log(arr2.reduce(red2, 5))
+
+const red3 = (a,b) =>{
+    return a*b
+}
+console.log(arr2.reduce(red3))
