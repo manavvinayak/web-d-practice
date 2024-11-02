@@ -1,0 +1,95 @@
+/* The :root pseudo-class in CSS refers to the root element of the document tree. In HTML, this translates to the <html> element that acts as the foundation for your entire webpage structure.
+Here's a breakdown of how the :root pseudo-class works:
+1. Selecting the Root Element:
+    :root acts as a selector that targets the highest level parent element in the document tree.
+    In HTML, this is equivalent to using the html selector, but with some key differences.
+2. Specificity and Use Cases:
+
+    While both :root and html achieve the same result of selecting the <html> element, :root has a higher specificity. This means styles defined with :root will override styles defined with html if there's a conflict.
+    The primary use case for :root is to declare global CSS variables. These variables can then be inherited by descendant elements throughout the document.
+3. Declaring Global CSS Variables:
+    By using :root in conjunction with the var() function, you can define custom properties that become accessible throughout your CSS. */
+:root{
+   --primary-color: beige ;
+   --custom-width: 400px;
+}
+
+
+.container{
+    background-color: beige;
+    border: solid red 2px;
+    margin: 2px;
+    padding: 2px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.box{
+    background-color: var(--primary-color);
+    border: solid black 2px;
+            margin: 2px;
+            padding: 2px;
+            width: var(--custom-width);
+            text-align: center;
+            box-shadow: 5px 10px red;
+
+}
+
+#example1{
+  margin: 2px;
+  padding: 2px;
+  border: solid purple 2px;
+  background-color: rgba(red, green, blue, alpha);
+  box-shadow: 5px 10px 5px chartreuse ;
+  /* For Blur radius third  variable is added after x and y axis */
+
+}
+#example2{
+    margin: 2px;
+    padding: 2px;
+    border: solid aquamarine 2px;
+    background-color: cyan;
+    box-shadow: 5px 10px 5px 10px blue;
+    /* For Spread radius of a shadow ,fourth variable is added after Blur Radius */
+
+}
+#example3{
+    margin: 2px;
+    padding: 2px;
+    border: solid white 2px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    box-shadow: 5px 10px 5px pink inset;
+    /* Inset Parameter is added following Shadow Color */
+
+}
+#example4{
+    margin: 2px;
+    padding: 2px;
+    border: solid grey 2px;
+    background-color: whitesmoke;
+    color: red;
+    box-shadow: 2px 5px 10px black,2px 5px 10px blue,2px 5px 10px yellow;
+
+}
+
+
+#ex1{
+   box-shadow: 2px 3px  red;
+}
+#ex2{
+   box-shadow: 3px 5px 7px purple ;
+}
+#ex3{
+  color: white;
+  box-shadow: 2px 3px 4px cyan;
+}
+#ex4{
+    text-shadow: 0 0 3px #FF0000;
+}
+#ex5{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
