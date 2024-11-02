@@ -1,0 +1,44 @@
+.container{
+  background-color: rgba(red, green, blue, alpha);
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  border: solid black 2px;
+  flex-direction: row;
+  height: 700px;
+  flex-wrap: wrap;      
+     justify-content: center;     
+      align-items: center;      
+    justify-content: space-between;       
+     justify-content: space-around;
+}
+
+.box{
+    height: 200px;
+            width: 200px;
+            border: solid red 2px;
+            margin: 2px;
+            padding: 2px;
+            
+    
+}
+
+#box1{
+    background-color: aqua;
+    
+
+}
+
+#box2{
+  background-color: darkgrey;
+}
+
+#box3{
+ background-color: lightblue;
+}
+
+#box4{
+ background-color: slateblue;
+ flex-shrink: 4;
+ flex-basis: 400px;
+}

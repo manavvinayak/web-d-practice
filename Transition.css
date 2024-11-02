@@ -1,0 +1,23 @@
+.box{
+    width: 400px;
+            height: 400px;
+            background-color: aquamarine;
+            border: solid black 2px;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+}
+/* In CSS, :hover is a pseudo-class that targets an element when the user hovers their mouse pointer (or any other pointing device) over it. This allows you to create interactive visual effects that enhance the user experience. */
+.box:hover {
+    width: 1400px;
+    background-color: red;
+    /* In this example:
+    .box is a CSS class that you would likely assign to a specific HTML element on your page (e.g., <div class="box">...</div>).
+    The :hover pseudo-class is used after the class name.
+    Inside the curly braces ({}), you define the styles that will be applied when the user hovers over the element with the .box class. In this case:
+        width: 1400px; increases the width of the element to 1400 pixels when hovered over.
+        background-color: red; changes the background color to red on hover.
+Additional Considerations:
+    You can combine multiple properties within the :hover style block to create more complex effects, such as changing border styles, adding shadows, or applying text decorations.
+    For a smoother user experience, consider using CSS transitions or animations to create gradual changes when hovering over elements. */
+}

@@ -1,0 +1,47 @@
+.container{
+    padding: 2px;
+    margin: 2px;
+    background-color: aquamarine;
+    border: solid rgb(red, green, blue) 3px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+.box1{
+    background-color: yellow;
+    border: solid red 2px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    background-color: chartreuse;
+    border: solid blue 2px;
+    margin: 2px;
+    padding: 2px;
+}
+
+p{
+    border: solid rgb(red, green, blue) 2px;
+
+}
+
+img{
+    width: 200px;
+}
+/* Media queries in CSS are a powerful tool for creating responsive web designs. They allow you to apply different styles to your webpages based on the characteristics of the device or viewport that's being used to access them.
+Media queries use the @media rule in CSS. Inside this rule, you define conditions that determine when specific styles should be applied. These conditions can be based on various media features like:
+
+    Screen size: This is the most common use case. You can target devices based on their width, height, or both. For example, @media (min-width: 768px) would only apply styles when the screen width is at least 768 pixels.
+    Device type: You can target specific device types like screens, print media, or speech synthesizers using media types like screen, print, or speech.
+    Other features: There are various other features you can target, such as device orientation (portrait or landscape), resolution, color scheme preference, and more. */
+
+@media (max-width: 600px) {
+    .container{
+        flex-direction: row;
+        
+    }
+}

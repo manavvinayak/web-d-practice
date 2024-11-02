@@ -1,0 +1,31 @@
+h1{
+    color: turquoise;
+}
+
+p{
+    font-style: italic;
+    font-size: 25;
+}
+
+#para1{
+    background-color: yellow;
+    color: red;
+}
+
+#para2{
+    font-family: cursive;
+    font-weight: 2000;
+    line-height: 50px;
+    background-color: rgb(red, green, blue);
+}
+
+#para3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+ #para4{
+     background-color: coral;
+ }
+
+ 

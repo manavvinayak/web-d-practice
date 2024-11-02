@@ -1,0 +1,58 @@
+.box{
+    border: solid red 2px;
+    background-color: yellow;
+}
+
+.parent{
+    border: solid blue 2px;
+    background-color: bisque;
+}
+
+.child{
+    border: solid green 2px;
+    background-color: aquamarine;
+    width: 50%;
+}
+/* vh and vw are viewport units used to define the dimensions of an element relative to the viewport (the visible area of the browser window). Here's a breakdown of what they mean:
+
+    vh (Viewport Height): One vh is equal to 1% of the viewport's height. So, in this case, height: 50vh sets the height of the element with class .container to 50% of the viewport height.
+
+    vw (Viewport Width): One vw is equal to 1% of the viewport's width. Here, width: 50vw sets the width of the element to 50% of the viewport width. */
+
+.container{
+    border: solid pink 2px;
+    background-color: beige;
+    height: 50vh;
+    width: 50vw;
+}
+
+.base{
+    font-size: 10px;
+    background-color: blueviolet;
+    padding: 2px;
+    border: solid red 2px;
+}
+/* In CSS, em and rem are relative units used to define the size of elements based on the font size of a reference element. Here's a breakdown of their differences:
+
+1. em (e-meters):
+
+    The size of an element is set relative to the font size of its parent element.
+    If the parent element has a font size of 16px, then 1em within that element would also be 16px.
+    If the parent element's font size is changed to 20px, then 1em within that element would become 20px (inherited and scaled).
+
+2. rem (root em):
+
+    The size of an element is set relative to the font size of the root element (usually the <html> element).
+    If the <html> element has a font size of 16px, then 1rem throughout the document would be 16px.
+    Changing the font size of the <html> element would proportionally affect all elements using rem (inherited from the root). */
+
+.derived{
+    font-size: 10em;
+    padding: 2em;
+}
+
+.firstp{
+    border:solid black 2px;
+    background-color: blanchedalmond;
+    font-size:  5rem;
+}

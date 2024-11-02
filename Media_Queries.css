@@ -1,0 +1,38 @@
+.container {
+    background-color: beige;
+    border: solid black 5px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: solid red 2px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: green;
+}
+
+#box3 {
+    background-color: pink;
+}
+
+#box4 {
+    background-color: orange;
+}
+
+@media (min-width:540px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
